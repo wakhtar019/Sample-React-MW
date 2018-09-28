@@ -1,0 +1,46 @@
+.assign-roles{
+    .content{
+      padding-bottom:10px;
+      h5{  
+    margin-bottom: .5rem ;
+    font-family: inherit;
+    font-weight: 300;
+    line-height: 1.2;
+    color: inherit;
+    padding-left: 20px;
+      }
+      p{
+        margin-top: 0;
+        margin-bottom: 1rem;
+        padding-left: 80px;
+        font-weight: 200;
+      }
+      .note{
+    color:$red;
+    padding-left: 80px;
+    font-weight: 200;
+      }
+    span{
+    font-weight: 200;
+    }
+  }
+  .row
+  {
+    padding-left:80px;
+    .application-roles{
+      h6
+      {
+         padding-left: 50px;
+        font-weight: 500; 
+      } 
+  }
+}
+ .assignRoles-buttons
+ {
+   float:right;
+   button{
+     margin-left:10px;
+   }
+ }
+}
+  

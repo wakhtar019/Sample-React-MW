@@ -1,0 +1,151 @@
+@import '../../../../resources/styles/variables/references';
+
+.wizard-nav{
+    text-align: center;
+    display: inline-block;
+    box-shadow: 0 0 15px 1px $ms-color-neutralTertiary;
+    overflow: hidden;
+    border-radius: 5px;     
+
+    a {
+        text-decoration: none;
+        float: left;
+        font-size: 12px;
+        line-height: 36px;
+        /*need more margin on the left of links to accomodate the numbers*/
+        padding: 0 10px 0 40px;
+        background: $ms-color-neutralSecondary;
+        background: linear-gradient($ms-color-neutralSecondary, $ms-color-neutralPrimary);
+        position: relative;
+        font-weight: 300;
+        cursor: pointer;
+    }
+    /*since the first link does not have a triangle before it we can reduce the left padding to make it look consistent with other links*/
+    a:first-child {
+        padding-left: 30px;
+        border-radius: 5px 0 0 5px; /*to match with the parent's radius*/
+    }
+    a:first-child:before {
+        left: 14px;
+    }
+    a:last-child {
+        border-radius: 0 5px 5px 0; /*this was to prevent glitches on hover*/
+        padding-right: 30px;
+    }
+    
+    /*hover/active styles*/
+    a.active, a:hover{
+        background: $ms-color-neutralPrimary;
+        background: linear-gradient($ms-color-neutralPrimary, $ms-color-black);
+    }
+    a.active:after, a:hover:after {
+        background: $ms-color-neutralPrimary;
+        background: linear-gradient(135deg, $ms-color-neutralPrimary, $ms-color-black);
+    }
+    
+    /*adding the arrows for the breadcrumbs using rotated pseudo elements*/
+    a:after {
+        content: '';
+        position: absolute;
+        top: 0; 
+        right: -18px; /*half of square's length*/
+        /*same dimension as the line-height of a */
+        width: 36px; 
+        height: 36px;
+        /*as you see the rotated square takes a larger height. which makes it tough to position it properly. So we are going to scale it down so that the diagonals become equal to the line-height of the link. We scale it to 70.7% because if square's: 
+        length = 1; diagonal = (1^2 + 1^2)^0.5 = 1.414 (pythagoras theorem)
+        if diagonal required = 1; length = 1/1.414 = 0.707*/
+        transform: scale(0.707) rotate(45deg);
+        /*we need to prevent the arrows from getting buried under the next link*/
+        z-index: 1;
+        /*background same as links but the gradient will be rotated to compensate with the transform applied*/
+        background: $ms-color-neutralSecondary;
+        background: linear-gradient(135deg, $ms-color-neutralSecondary, $ms-color-neutralPrimary);
+        /*stylish arrow design using box shadow*/
+        box-shadow: 
+            2px -2px 0 2px rgba(0, 0, 0, 0.4), 
+            3px -3px 0 2px rgba(255, 255, 255, 0.1);
+        /*
+            5px - for rounded arrows and 
+            50px - to prevent hover glitches on the border created using shadows*/
+        border-radius: 0 5px 0 50px;
+    }
+    /*we dont need an arrow after the last link*/
+    a:last-child:after {
+        content: none;
+    }
+
+    // .link-icon{
+    //     // content:'\2713';
+    //     border-radius: 100%;
+    //     width: 20px;
+    //     height: 20px;
+    //     line-height: 20px;
+    //     margin: 8px 0;
+    //     position: absolute;
+    //     top: 0;
+    //     left: 30px;
+    //     // background: #444;
+    //     // background: linear-gradient(#444, #222);
+    //     font-weight: bold;
+    //     box-shadow: 0 0 0 1px darken($ms-color-neutralSecondaryAlt, 10%);
+    // }
+    /*we will use the :before element to show numbers*/
+     
+
+    // .flat a.not-started:before {
+    //     content:'\2713';       
+    //     background: $ms-color-neutralLighter;
+    // } 
+    // .flat a {
+    //    max-width: 150px;
+    //    text-overflow:ellipsis;
+    //    white-space: nowrap;
+    //    overflow: hidden;
+    // } 
+    
+    .flat a, .flat a:after,.flat a:before {
+        color: $ms-color-black;
+        background: $ms-color-neutralLighter;
+        transition: all 0.2s;
+    }   
+
+    // .flat a.not-started, .flat a.not-started:after{
+    //     background: $ms-color-neutralLighter;
+    // } 
+
+    .flat a.not-started:before{
+        padding-left: 10px;       
+    }
+
+    .flat a.in-progress, .flat a.in-progress:after{
+        background: $ms-color-themePrimary;
+    }
+    .flat a.in-progress:hover, .flat a.in-progress:hover:before,.flat a.in-progress:hover:after {
+        cursor: text;
+    } 
+
+    // .flat a.completed, .flat a.completed:after{
+    //     background: $ms-color-green;
+    // }
+    .flat a.completed:before {
+        content:'\2713';
+        padding-right: 5px;
+    }  
+    
+    // .flat a.error, .flat a.error:after{
+    //     background: $ms-color-error;
+    // }
+    
+    // .flat a.disabled, .flat a.disabled:after{
+    //     background: $ms-color-neutralSecondary;
+    // }
+    .flat a.disabled:hover, .flat a.disabled:hover:before,.flat a.disabled:hover:after {
+        cursor: not-allowed;
+        background: $ms-color-neutralLighter;
+    } 
+
+    .flat a:hover, .flat a:hover:before,.flat a:hover:after {
+        background: $ms-color-themePrimary;
+    }   
+}

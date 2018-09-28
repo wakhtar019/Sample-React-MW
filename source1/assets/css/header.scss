@@ -1,0 +1,22 @@
+@import "color-vars";
+
+#Header{
+    width:100%;
+    background-color:$header-bgColor;
+    height: 48px;
+    //left: 44px;
+    z-index: 1005;
+    //position: fixed;
+    padding-left: 19px;
+    span{ 
+        line-height: 48px;
+        color:  #fff;
+        font-size: 15px;
+        font-family: "Segoe UI Semibold"; 
+    }
+    a{
+        &:hover{
+            text-decoration: none;
+        }
+    }
+}

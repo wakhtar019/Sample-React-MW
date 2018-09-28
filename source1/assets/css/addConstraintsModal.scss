@@ -1,0 +1,100 @@
+.additional-constraints
+ {
+    h6
+    {
+      padding-left: 50px;
+      font-weight: 500;
+      margin-bottom: 20px;
+    }
+    .add-agreement-no
+    {
+    .add-agreement-modal
+    { 
+        padding-left: 80px;
+        color:$green;
+        float:left;
+}
+    button
+    {
+        width: 200px;
+        margin-left: 10px;
+        background-color: transparent;
+        border: none;
+    }
+}
+    .agreement-organization-text
+    {
+        label{
+            font-weight:400;
+            padding-left:80px;
+        }
+        span{
+            font-weight:400;
+            padding-left:80px;
+        }
+    }
+ }
+ .addConstraint-modal
+ {
+ .modal-class{
+    width: 750px;
+    min-height: 500px;
+    margin-right:30px;
+    .modal-header{
+        margin-bottom: 50px;
+        margin-top: 30px;
+        margin-left: 30px;
+        h4{
+            font-weight: 400 
+         }
+    button
+    {  
+        background-color: transparent;
+        border: none;
+        float:right;
+    }
+    }
+ .modal-text{
+     margin-left:50px;
+     margin-bottom:10px;
+ }
+ .label-text{
+    margin-left:50px;
+    margin-bottom:10px;
+    span{
+    color:$red;
+    }
+}
+.agreement-pcnNo
+{
+    margin-left: 50px;
+    margin-bottom: 20px;
+    input{
+     width:276px;
+     height: 30px;
+     margin-bottom:10px;   
+    }
+    input[type=number]::-webkit-inner-spin-button, 
+   input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0; 
+   }
+    button 
+    { 
+        margin-left:10px;
+        background-color: transparent;
+        border: none;
+    i      
+  {     
+   color:$green;
+  }
+    }
+}
+.add-button
+{
+    float:right;
+}
+}
+ }

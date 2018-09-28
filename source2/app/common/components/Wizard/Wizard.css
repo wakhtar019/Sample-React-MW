@@ -1,0 +1,20 @@
+.wizard-step {
+  padding: 0px; }
+  .wizard-step .wizard-step-header {
+    margin-bottom: 5px;
+    border-bottom: 1px solid #c8c8c8;
+    text-align: left;
+    padding-bottom: 5px; }
+    .wizard-step .wizard-step-header > span {
+      font-size: 17px;
+      font-weight: bold; }
+  .wizard-step .wizard-step-body {
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #c8c8c8; }
+  .wizard-step .wizard-step-footer {
+    text-align: right; }
+    .wizard-step .wizard-step-footer button {
+      margin: 2px;
+      min-width: 120px;
+      text-align: left; }

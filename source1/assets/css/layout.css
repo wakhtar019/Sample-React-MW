@@ -1,0 +1,17 @@
+@font-face{
+  font-family: 'SegoeUI MDL2 Assets';
+  src: url("../fonts/segmdl2/SEGMDL2.svg") format("svg"), url("../fonts/segmdl2/SEGMDL2.woff") format("woff"), url("../fonts/segmdl2/SEGMDL2.TTF") format("truetype")
+} 
+@font-face {
+font-family: 'Segoe UI Semibold';
+src:  url('../fonts/semibold/segoeui.woff') format('woff'), url('../fonts/semibold/segoeui.ttf') format('truetype'), url('../fonts/semibold/segoeui.svgz#SegoeUISemibold') format('svg'), url('../fonts/semibold/segoeui.svg#SegoeUISemibold') format('svg');
+font-weight: 600;
+font-style: normal;
+}
+
+@font-face{
+  font-family: 'FabricMDL2Icons';
+  src: url("../fonts/fabric/FabExMDL2.svg") format("svg"), url("../fonts/fabric/FabExMDL2.woff") format("woff"), url("../fonts/fabric/FabExMDL2.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+} 

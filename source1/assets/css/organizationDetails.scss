@@ -1,0 +1,78 @@
+
+.user-details{
+    margin-top: 20px;
+   p{
+    font-family: 'Segoe UI';
+    font-size: 22px;
+   }
+   
+    h5{
+        margin-bottom: 30px;
+        font-weight: 700;
+    }
+    .create-acc-btn{
+        float: right;
+        margin-bottom: 20px;
+        margin-top: 30px;
+        border-radius: 0;
+    }
+
+    .user-creation{
+       
+        h5{
+            display: inline-block;
+            margin-left: 264px;
+        }
+        span{
+            margin-top: 5px;
+            font-size:15px;
+        }
+        .mandatary-text{
+            color: #ec6262;
+            font-size: 12px;
+            font-family: 'Segoe UI';
+            font-weight: 600;
+            text-decoration: underline;
+            margin-left: 5px;
+        }
+        input{
+            height: 36px;
+            border-radius: 0;
+            width:250px;
+            font-size:13px;
+            padding: 13px;
+
+        }
+        label{
+            font-size: 13px;
+            padding-top: calc(.375rem + 1px);
+            padding-bottom: calc(.375rem + 1px);
+            margin-bottom: 0;
+            font-size: inherit;
+            line-height: 1.5;
+            width:110px;
+            font-family: inherit;
+            font-weight: 600;
+        }
+        .organization-buttons
+        {
+            float:right;
+            button{
+            margin-left:10px;
+            }
+        }
+    }
+ 
+.org-details{
+    //background: $uum-background ;  
+    padding-top: 20px;
+    
+    .details{
+        label{
+            font-family: inherit;
+            font-weight: 600;
+            font-size: 13px;
+        }
+    }
+}
+}

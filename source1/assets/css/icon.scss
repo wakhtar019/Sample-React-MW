@@ -1,0 +1,27 @@
+.icon {
+    font-family: "SegoeUI MDL2 Assets";
+    font-weight: normal;
+    font-style: normal;
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+ 
+     &.icon-globalNavBtn:before {
+        content: "\E700"; 
+     }
+     &.icon-user:before{
+         content: "\E8CF"
+     }  
+     &.icon-settings:before{
+       content:"\E713"
+    }
+    &.icon-home:before{
+     content:"\E80F"
+    }
+    &.icon-people:before{
+     content:"\E716"
+    } 
+   }

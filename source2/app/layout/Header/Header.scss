@@ -1,0 +1,28 @@
+@import '../../../resources/styles/variables/references';
+
+.header-container {
+    background-color: dimgrey;
+    height: 40px;
+    background-color: black;
+}
+nav {
+    text-align:center;
+    li {
+        display:inline-block;     
+        list-style:none;
+        font-weight:bold;
+        padding: 5px;
+    }
+}
+
+
+
+
+
+// .ms-CommandBar{
+//     background-color: $ms-color-themePrimary !important;
+// }
+
+// .ms-OverflowSet-item{
+//     background-color: $ms-color-themePrimary !important;
+// }

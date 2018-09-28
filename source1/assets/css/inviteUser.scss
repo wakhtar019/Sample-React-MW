@@ -1,0 +1,53 @@
+@import "color-vars";
+.form-container.invite-user-container{
+    height: calc(100vh - 105px);
+}
+.form-container{
+    
+    background-color: $white;
+    position: relative;
+    padding:12px;
+    right: 12px; 
+    margin-left:12px;
+    font-size: 15px;
+    form{
+        left:12px;
+    }
+    label{
+        color: rgba(0,0,0,0.6);
+        font-size: 13px;
+    }
+    input{
+        width:20%;
+        height: 36px;
+        font-size: 15px;
+        border-radius:0;
+        
+    }
+    .placeholder {
+        color: #a8a8a8;
+    }
+    ::-webkit-input-placeholder {
+        color: #a8a8a8;
+    }
+    :-moz-placeholder {
+        color: #a8a8a8;
+    }
+    .bottom-buttons{
+        position: absolute;
+        right: 0; 
+        bottom: 10px;
+        button{
+            width:120px;
+            margin-right: 10px;
+            border-radius: 0;
+            &:focus{
+                border:none;
+                -webkit-box-shadow: none;
+                -moz-box-shadow: none;
+                box-shadow: none;
+                outline:1px dotted $black;
+            }
+        }
+    }
+}

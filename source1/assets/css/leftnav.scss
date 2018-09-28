@@ -1,0 +1,100 @@
+@import "color-vars";
+
+.li-hamburger{
+  width:44px;
+} 
+
+.left__nav{ 
+  height: calc(100vh - 48px);
+  float:left; 
+  background: $header-bgColor !important;
+  width: 44px; 
+  z-index: 1001;
+  transform: translateX(0px);
+  overflow: hidden; 
+  ul{
+    padding: 0;
+    margin: 0;
+    li{
+      color: #FFF;
+     // border-bottom: 1px solid #083b79;
+      list-style-type: none;
+      text-align: center ;
+       &:hover{
+         background-color: #0078D7;  
+       }
+       &:active{
+        background-color: #0078D7;  
+      }  
+      .breadcrumb__wrapper{
+        height: 44px !important;
+        cursor: pointer;
+    
+        color: #FFF;
+        border: 0;
+        box-shadow: none;
+        background-color: transparent; 
+        width:100%;
+        margin: 1px;
+        &:focus{
+          outline: 1px dotted #fff;
+        }
+      }
+      .btn-hamburger span{
+        margin-left: auto;
+        margin-right: auto;
+      }
+      a{
+        display: flex;
+        align-items: center;
+        height: 44px;
+        width: 190px;
+        cursor: pointer;
+        color: #FFF ;// rgb(170, 170, 170)
+        padding: 0 12px 0px 14px;
+        outline: none;
+        transition: all 0.15s ease-in-out;
+        text-decoration: none; 
+        margin:1px;
+        &:focus{
+          outline: 1px dotted #fff;
+        }
+        .icon{
+            font-size: 17px !important;
+        }
+        .slide-nav-icon{
+            margin-right: 25px
+        } 
+    }
+}
+}
+}
+.bottom-nav{ 
+    position: absolute;
+    bottom: 15px; 
+    width: 100%;
+}
+.profile-img{
+  height: 24px;
+  width: 24px;
+  border-radius: 50%;
+}
+.user-span{
+
+overflow: hidden;
+white-space: nowrap;
+text-overflow: ellipsis;
+padding: 0;
+}
+
+.left__nav_expanded{
+  background-color:$header-bgColor;
+  -webkit-transition: -webkit-transform .3s;
+  -moz-transition:    -moz-transform .3s;
+  transition: 0.5s;
+  -webkit-transform: translateX(-100px);
+  -moz-transform: translateX(0px);
+  transform: translateX(0px);
+  overflow: visible;
+  width: 190px !important;
+}

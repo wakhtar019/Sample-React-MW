@@ -1,0 +1,100 @@
+.review-selection{
+    margin-top: 20px;
+    .reviewText{
+        margin-left : 90px;
+        margin-top : 20px;
+        font-size : 18px;
+    }
+    .reviewAddSelection{
+        font-size : 18px;
+        margin-right : 150px;
+    }
+    .review-selection-table
+    {
+        font-size:15px;
+        color:$black;
+        margin-left : 70px;
+        padding-top : 20px;
+        margin-bottom: 20px;
+        .reviewTable
+        {
+        margin-bottom: 20px;
+        }
+        .reviewTableData
+        {
+            margin-bottom: 20px; 
+            .reviewAddConstraintsNav
+            {
+                background-color: transparent;
+                border: none;  
+              color:$blue-80;
+}
+    button{
+        color : $blue-80;
+        background-color: transparent;
+        border: none;
+        float:left;     
+    }
+}
+}   
+    .reviewButtons{
+       float:right;
+       margin-top : 300px;
+       padding-bottom: 15px;
+       padding-right: 15px;
+        button{
+            margin-left:10px;
+} 
+    }    
+
+}
+.review-selection-main-modal{
+    .ms-Dialog-main 
+    {
+        right: -500px;
+    .reviewSelection-modal{
+        width: 500px;
+        height: calc(100vh - 30px);
+     .modal-header{
+        margin-bottom: 50px;
+        margin-top: 30px;
+        margin-left: 30px;
+        h4
+    {
+        font-weight: 300 
+    }
+    button
+    {  
+        background-color: transparent;
+        border: none;
+        float:right;
+    }
+     }
+    .modal-text
+    {
+     margin-left: 80px;
+    margin-bottom: 20px;
+    span
+    {
+        font-weight:600;
+    } 
+    }
+    .agreement-details
+    {
+      margin-left:80px;
+      margin-bottom:20px;
+      .agreement-number
+      {
+          label
+          {
+    font-weight:300
+          }
+      }
+      .agreement-data
+      {
+          font-weight:600
+      }
+    }
+    }
+    }
+    }

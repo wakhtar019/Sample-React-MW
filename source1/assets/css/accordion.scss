@@ -1,0 +1,83 @@
+.accordion {
+    .card {
+        background: $white;
+
+        .card-header {
+            background: none;
+            padding: 0;
+
+            h4 {
+                padding: 0px;
+                border-top: 1px solid $gray-400;
+
+                .btn {
+                    font-size: inherit;
+                    color: $gray-600;
+                    padding: 0;
+                    width: 100%;
+                    text-align: left;
+                    line-height: $accordian-height-sm;
+                    height: $accordian-height-sm;
+                    text-decoration: none;
+                    position: relative;
+
+                    span {
+                        width: 100%;
+                        height: 100%;
+                        padding: 0 30px 0 0px;
+                        display: block;
+                        background:none;
+                        @extend .easing;
+                    }
+
+                    &:focus > span {
+                        color: $blue;
+                        background: rgba(0, 115,210, 0.1);
+                    }
+
+                    &:before {
+                        position: absolute;
+                        top: 50%;
+                        transform: translate(0, -50%);
+                        right: 0px;
+                        font-size: $caption-font-sm-size;
+                        color: $gray-400;
+                        @extend .easing;
+                    }
+
+                    &[aria-expanded="true"] {
+                        font-family: $font-family-semibold;
+
+                        &:before {
+                            transform: translate(0, -50%) rotate(180deg);
+                        }
+                    }
+                }
+            }
+        }
+
+        .card-body {
+            padding: 0;
+        }
+        
+    }
+}
+.acordian-item 
+{
+    padding: 12px;
+    width: 100%;
+    margin-bottom: 15px;
+    a{
+    font-weight: 700;
+    }
+    i
+    {
+        float:right;
+    }
+}
+  .acordian-border{
+    border: 1px solid #ccc;
+  }
+  .acordian-active-border{
+    border-top: 1px solid #ccc;
+  }

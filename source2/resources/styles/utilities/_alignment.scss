@@ -1,0 +1,55 @@
+
+.parent{
+    background: $ms-color-card-background;
+    height: 20vh;
+    .child
+    {
+        line-height: 100px;
+    }
+}
+
+//
+.flex {
+    display: flex;
+
+    .ms-textAlignCenter {
+        margin: auto;
+        align-self: center;
+    }
+    
+    .ms-textAlignLeft {
+        margin-right: auto;
+        align-self: center;
+    }
+    
+    .ms-textAlignRight {
+        margin-left: auto;
+        align-self: center;
+    }
+    
+    .ms-x-textAlignCenter {
+        margin-right: auto;
+        margin-left: auto;
+    }
+    
+    .ms-x-textAlignLeft {
+        margin-right: auto;
+    }
+    
+    .ms-x-textAlignRight {
+        margin-left: auto;
+    }
+    
+    .ms-y-textAlignCenter {
+        align-self: center;
+    }
+    
+    .ms-y-textAlignTop {
+        align-self: flex-start;
+    }
+    
+    .ms-y-textAlignBottom {
+        align-self: flex-end;
+    }
+}
+

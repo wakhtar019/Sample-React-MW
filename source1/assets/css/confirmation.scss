@@ -1,0 +1,46 @@
+.confirmation{
+    margin-top: 20px;
+
+    .confirmName{
+        margin-left : 70px;
+        margin-top : 20px;
+        font-size : 18px;
+        color : $black;
+    }
+
+    .confirmText{
+        margin-left : 70px;
+        padding-top : 50px;
+        color : $gray-700;
+        font-size : 15px;
+    }
+
+    .confirmApplication{
+        color : $black;
+        padding-top : 18px;
+        padding-left : 70px;
+        font-size : 18px;
+    }
+
+    .confirmNotify{
+        padding-top : 18px;
+        color : $gray-700;
+        padding-left : 70px;
+        font-size : 18px;
+    }
+
+    .confirmSpan{
+        color : $blue-80;
+    }
+    
+
+    .confirmSubmitBtn{
+        float:right;
+        margin-top : 200px;
+        margin-bottom : 15px;
+        margin-right : 15px;
+        button{
+            margin-left:10px;
+            } 
+    }
+}

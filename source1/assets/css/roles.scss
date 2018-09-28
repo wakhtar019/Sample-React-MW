@@ -1,0 +1,83 @@
+
+//   .Header{  
+// padding-left:80px;
+// font-weight:500;
+//   }
+ .roles
+ {
+          .row{
+         padding-left: 110px;   
+     label
+     {
+        color: rgba(0, 0, 0, 0.8);
+        font-size: 15px;
+        font-weight: 400;
+     }
+     .roles-toggle.is-checked{
+         button{
+             background-color:$blue-90;
+         }
+     }
+     .roles-toggle{
+     button{    
+     font-size: 20px;
+     min-height: 20px;
+     background-color:$gray-80;
+     .ms-Toggle-thumb
+     {
+       background-color:$white;
+     }
+     }
+    }
+    .ms-Dropdown-container
+    {
+     margin-top:-20px
+    }
+     .roles-dropdown{
+        margin-bottom: 20px ;
+        width:276px ; 
+         }
+        }
+    }
+  .ms-Dropdown-items{
+    background-color:$gray-100 ;
+    .is-selected{
+    color:$white;    
+    background-color:$blue-60;
+    }
+}
+.ms-Dropdown-label::after
+{
+content: " *";
+color:$red ;
+padding-right: 12px;
+}
+
+// #submitter-role-dropdown-list{
+//     background-color:$gray-100 ;
+//     .is-selected{
+//     color:$white;    
+//     background-color:$blue-60;
+//     }
+// }
+// #creator-role-dropdown-list{
+//     background-color:$gray-100 ;
+//     .is-selected{
+//     color:$white;    
+//     background-color:$blue-60 ;
+//     }
+// }
+// #signer-role-dropdown-list{
+//     background-color:$gray-100 ;
+//     .is-selected{
+//     color:$white;    
+//     background-color:$blue-60 ;
+//     }
+// }
+// #viewer-role-dropdown-list{
+//     background-color:$gray-100 ;
+//     .is-selected{
+//     color:$white;    
+//     background-color:$blue-60;
+//     }
+// }

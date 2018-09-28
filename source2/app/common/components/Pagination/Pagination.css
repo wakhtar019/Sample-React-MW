@@ -1,0 +1,62 @@
+.pager {
+  display: flex; }
+  .pager .page-size-selection {
+    vertical-align: middle;
+    padding-top: 1px; }
+    .pager .page-size-selection select {
+      height: 25px; }
+  .pager .pagination-label {
+    padding-left: 10px;
+    padding-right: 10px;
+    vertical-align: middle;
+    padding-top: 4px; }
+  .pager .pagination {
+    display: inherit;
+    margin-left: auto; }
+    .pager .pagination .pageno-input {
+      vertical-align: middle;
+      padding-right: 20px;
+      padding-left: 10px; }
+      .pager .pagination .pageno-input input {
+        width: 56px;
+        height: 20px;
+        font-size: 13px; }
+    .pager .pagination ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      align-items: center; }
+    .pager .pagination ul a {
+      height: 24px;
+      width: 24px;
+      border: 1px solid #ccc;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      text-decoration: none;
+      font-size: 14px;
+      color: #000000;
+      position: relative;
+      -webkit-transition: 0.3s;
+      -o-transition: 0.3s;
+      transition: 0.3s; }
+    .pager .pagination a::before a::after {
+      -webkit-transition: 0.3s;
+      -o-transition: 0.3s;
+      transition: 0.3s;
+      content: "";
+      position: absolute;
+      height: 50%;
+      background-color: #aaa; }
+    .pager .pagination a:hover {
+      background-color: #0079c1;
+      color: #ffffff;
+      border: 1px solid #0079c1; }
+    .pager .pagination a:hover::before, .pager .pagination a:hover::after {
+      background-color: #fff; }
+    .pager .pagination a.active {
+      background-color: #0079c1;
+      color: #fff;
+      border: 1px solid #0079c1; }

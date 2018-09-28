@@ -1,0 +1,26 @@
+.accordion {
+  padding: 0px;
+  width: 100%; }
+  .accordion .accordion-header {
+    width: 100%;
+    text-align: left;
+    background-color: #EEEEEE;
+    display: flex;
+    padding: 5px; }
+    .accordion .accordion-header div:nth-child(1) {
+      font-size: inherit; }
+    .accordion .accordion-header div:nth-child(2) {
+      margin-left: auto;
+      padding-right: 3px; }
+      .accordion .accordion-header div:nth-child(2) i {
+        font-size: 80%;
+        font-weight: bold; }
+    .accordion .accordion-header .accordion-header-icon {
+      cursor: pointer; }
+  .accordion .accordion-body {
+    width: 100%;
+    text-align: left;
+    border: 1px solid #a6a6a6;
+    padding: 4px; }
+  .accordion .accordion-body-hide {
+    display: none; }

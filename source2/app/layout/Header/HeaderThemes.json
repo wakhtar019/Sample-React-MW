@@ -1,0 +1,24 @@
+{
+    "black": {
+        "themePrimary": "#212121",
+        "neutralPrimary": "#ffffff",
+        "neutralSecondary": "#ffffff",            
+        "neutralLight": "#333333",
+        "neutralLighter": "#212121",
+        "neutralDark": "#ffffff",
+        "neutralQuaternaryAlt": "#333333",
+        "black": "#ffffff",
+        "white": "#333333"
+    },
+    "blue": {
+        "themePrimary": "#0078d4",
+        "neutralPrimary": "#ffffff",
+        "neutralSecondary": "#ffffff",            
+        "neutralLight": "#106ebe",
+        "neutralLighter": "#0078d4",
+        "neutralDark": "#ffffff",
+        "neutralQuaternaryAlt": "#106ebe",
+        "black": "#ffffff",
+        "white": "#106ebe" 
+    }
+}

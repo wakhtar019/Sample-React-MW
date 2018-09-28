@@ -1,0 +1,123 @@
+@import '../../../../resources/styles/variables/references';
+.card
+{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  width: 470px;
+  margin: auto;
+  font-family: arial;
+  border: 1px solid $ms-color-card-border;
+  h5{
+      margin: 5px 0px 0px 15px;
+      color: $ms-color-blue;
+      padding-top: 5px;
+  }
+  p{
+      margin: 6px 0px 0px 15px ;
+      overflow: hidden;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+      font-size:  $ms-para-font-size;
+      font-weight: $ms-para-font-weight;
+  }
+  h6{
+      color: $ms-color-black;
+      margin: 2px 0px 16px 20px;
+      font-size:  $ms-h6-font-size;
+  }
+}
+
+.card-header
+{
+    background-color: $ms-color-card-background;
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid $ms-color-card-border;
+    display: flow-root;
+    position: relative;
+    .item-left
+    {
+        width: 60%;
+        float: left;
+        text-align: left;
+    }
+
+    .item-right
+    {
+        width: 40%;
+        float: right;
+        text-align: left;
+    }   
+    .accordion-header,
+    .accordion
+    {
+        margin-right: 15px !important;
+        background-color: transparent !important;
+        .ms-Icon
+        {
+            margin-right: 15px;
+        }
+        .accordion-body
+        {
+            border: none;
+        }
+    }  
+    .ms-Button 
+    {
+        position: absolute;
+        background-color: transparent;
+        bottom: 0px;
+        right: 46%;
+        height: 15px;
+    } 
+}
+
+.card-body
+{
+    min-height: 100px;
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid $ms-color-card-border;
+    position: relative;
+    clear: both;
+    padding-bottom: 5px;
+    .wrap
+    {
+        width: 100%;
+        display: inline-flex;
+        margin-top: 30px;
+    }
+    .item-left
+    {
+        float: left;
+        text-align: left;
+        width: 20%;
+    }
+    .item-center
+    {
+        margin: 0 auto;
+        width: 60%;
+    }
+
+    .item-right
+    {
+        float: right;
+        width: 20%;
+    }   
+    .link
+    {
+        a
+        {
+            color:$ms-color-blue;
+            text-decoration: none;
+            font-size: $ms-anchor-font-size;
+        }
+        position: absolute;
+        right: 8px;
+        top: 5px;   
+    }
+    .error-box
+    {
+        text-align: left;
+    }
+}
+

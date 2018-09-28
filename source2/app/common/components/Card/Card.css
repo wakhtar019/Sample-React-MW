@@ -1,0 +1,86 @@
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  width: 470px;
+  margin: auto;
+  font-family: arial;
+  border: 1px solid #D7D7D7; }
+  .card h5 {
+    margin: 5px 0px 0px 15px;
+    color: #0078d7;
+    padding-top: 5px; }
+  .card p {
+    margin: 6px 0px 0px 15px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font-size: 14px;
+    font-weight: 500px; }
+  .card h6 {
+    color: #000000;
+    margin: 2px 0px 16px 20px;
+    font-size: smaller; }
+
+.card-header {
+  background-color: #EEEEEE;
+  width: 100%;
+  height: auto;
+  border-bottom: 1px solid #D7D7D7;
+  display: flow-root;
+  position: relative; }
+  .card-header .item-left {
+    width: 60%;
+    float: left;
+    text-align: left; }
+  .card-header .item-right {
+    width: 40%;
+    float: right;
+    text-align: left; }
+  .card-header .accordion-header,
+  .card-header .accordion {
+    margin-right: 15px !important;
+    background-color: transparent !important; }
+    .card-header .accordion-header .ms-Icon,
+    .card-header .accordion .ms-Icon {
+      margin-right: 15px; }
+    .card-header .accordion-header .accordion-body,
+    .card-header .accordion .accordion-body {
+      border: none; }
+  .card-header .ms-Button {
+    position: absolute;
+    background-color: transparent;
+    bottom: 0px;
+    right: 46%;
+    height: 15px; }
+
+.card-body {
+  min-height: 100px;
+  width: 100%;
+  height: auto;
+  border-bottom: 1px solid #D7D7D7;
+  position: relative;
+  clear: both;
+  padding-bottom: 5px; }
+  .card-body .wrap {
+    width: 100%;
+    display: inline-flex;
+    margin-top: 30px; }
+  .card-body .item-left {
+    float: left;
+    text-align: left;
+    width: 20%; }
+  .card-body .item-center {
+    margin: 0 auto;
+    width: 60%; }
+  .card-body .item-right {
+    float: right;
+    width: 20%; }
+  .card-body .link {
+    position: absolute;
+    right: 8px;
+    top: 5px; }
+    .card-body .link a {
+      color: #0078d7;
+      text-decoration: none;
+      font-size: smaller; }
+  .card-body .error-box {
+    text-align: left; }

@@ -1,0 +1,23 @@
+.autocomplete .autocomplete-details {
+  height: 125px;
+  max-height: 125px;
+  right: 15px;
+  left: 15px;
+  border-top: 0px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  position: absolute;
+  z-index: 1; }
+
+.autocomplete .ms-DetailsRow-cell {
+  font-size: 16px;
+  color: #000000;
+  background-color: #EEEEEE; }
+  .autocomplete .ms-DetailsRow-cell:hover, .autocomplete .ms-DetailsRow-cell:focus {
+    background: #0078D7;
+    color: #ffffff;
+    font-weight: bold; }
+
+.autocomplete .ms-List-cell:first-child {
+  font-weight: bold; }

@@ -1,0 +1,47 @@
+.SignInpanel{
+    background-color:$white;
+    width:100%;
+    overflow: hidden;
+.SignInfrontImg{
+    width:100%;
+    height:312px;
+    margin-top: 25px; 
+}
+.SignInwelcomeLabel{
+    text-align:center;
+    color:$gray-40;
+    font-size: 35px;
+    margin-top:10px;
+}
+.signInbtn{
+    background-color:$blue-200;
+    color :$white;
+    height:59px;
+    width:398px;
+    font-size : 20px;
+    margin-left: 54px;
+    margin-top : 10px;
+    border-radius: 0;   
+}
+
+.signInBtnText{
+    padding-top: 10px;
+    color: $gray-900;
+    font-size:15px;
+    margin-left:78px;
+}
+.signInBtnText1{
+    padding-top: 10px;
+    color:$gray-900;
+    font-size:15px;
+    margin-left: 270px;
+}
+.logoImg{
+    height:46px;
+    margin-top : 90px;
+    padding-bottom : 15px;
+    margin-left: 555px;
+    margin-right: 555px;
+}
+}
+

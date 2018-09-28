@@ -1,0 +1,32 @@
+@import '../../../../resources/styles/variables/references';
+
+.wizard-step{
+    padding: 0px;
+
+    .wizard-step-header{
+        margin-bottom: 5px;
+        border-bottom: 1px solid $ms-color-neutralTertiaryAlt;
+        text-align: left;
+        padding-bottom: 5px;
+
+        >span {
+            font-size: $ms-font-size-l;
+            font-weight: bold;            
+        }
+    }
+
+    .wizard-step-body{
+        margin-bottom: 5px;
+        padding-bottom: 5px;
+        border-bottom: 1px solid $ms-color-neutralTertiaryAlt;
+    }
+
+    .wizard-step-footer{
+        text-align: right;     
+        button {
+            margin: 2px;
+            min-width: 120px;
+            text-align: left;
+        }
+    }
+}

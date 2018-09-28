@@ -1,0 +1,45 @@
+@import '../../../../resources/styles/variables/references';
+
+.accordion{
+    padding: 0px;
+    width: 100%;
+
+    .accordion-header{
+        width: 100%;
+        
+        text-align: left;
+        background-color: $ms-color-card-background;
+        display: flex;
+        padding: 5px;
+    
+        div:nth-child(1){
+            font-size: inherit;
+        }
+        div:nth-child(2){
+            margin-left: auto;
+            padding-right: 3px;
+            i{
+                font-size: 80%;
+                font-weight: bold;
+            }
+        }  
+        
+        .accordion-header-icon{
+            cursor: pointer;
+        }
+    }
+    
+    .accordion-body{
+        width: 100%;
+        text-align: left;
+        border: 1px solid $ms-color-neutralTertiary;
+        padding: 4px;
+    }
+    
+    .accordion-body-hide{
+        display: none;
+    }
+}
+
+
+

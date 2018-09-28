@@ -1,0 +1,29 @@
+@import '../../../../resources/styles/variables/references';
+
+.OptionButton{
+    margin-right: $ms-button-margin;
+    padding: $ms-button-padding;
+    width: $ms-button-width;
+    border-color: $ms-focus-border-width solid $ms-color-card-border !important;
+    background-color: $ms-color-card-background !important;  
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    &:hover{
+        border-color: $ms-color-active-button !important;
+    }
+    .ms-Button-flexContainer
+    {
+        padding:$ms-button-padding;
+        .ms-Button-icon
+        {
+            display: none;
+            //with icon
+            //color: $ms-color-blue !important;
+           //color: green;
+        }
+    }
+}
+.is-checked
+{
+   border-left-color: $ms-color-active-button !important;
+    border-left-width: 3px !important;
+}
